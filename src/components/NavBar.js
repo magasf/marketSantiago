@@ -1,6 +1,6 @@
 
 import { Navbar, Container, NavDropdown, Nav, Button, Form, FormControl } from "react-bootstrap";
-
+import CardWidget from './CardWidget';
 
 export const NavBar = () => {
     return(
@@ -24,6 +24,7 @@ export const NavBar = () => {
                       <NavDropdown.Item href="#action5">Depositos y galpones</NavDropdown.Item>
                       </NavDropdown>
                       <Nav.Link href="#" disabled>Servicios</Nav.Link>
+                      <CardWidget/>
                       </Nav>
                       <Form className="d-flex">
                       <FormControl
