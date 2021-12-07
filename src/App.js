@@ -1,6 +1,7 @@
 
-import { NavBar } from './components/NavBar';
-import CardWidget from './components/CardWidget';
+import { NavBar } from './components/NavBar/NavBar';
+import ItemCount,{useState} from './components/Vehiculos/ItemListContainer'
+
 
 
 import './CSS/style.css'
@@ -8,8 +9,22 @@ import './CSS/style.css'
 function App() {
   return (
     <div className="App">
-      <h1>Este es un mensaje</h1>
-      <NavBar/>
+      <div className="Header">
+        
+
+
+      
+        <NavBar/>
+        
+
+      
+
+      
+      
+      </div>
+     
+        <ItemCount/>
+      
           
 
     </div>
