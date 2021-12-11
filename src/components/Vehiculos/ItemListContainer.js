@@ -1,7 +1,28 @@
 
 import React, {useState} from "react"
 /*import { Container } from "react-bootstrap";*/
-const ItemCount = () =>{
+
+function ComponentUseEffectProduct(){
+    const [ count, setCount] = useState(0)
+    //let count = 0 // este es un estado
+    const handlerClick=()=>{
+        setCount(count+1)
+    }
+    return (
+        <div>
+            <p>{count}</p>
+            <button onClick={handlerClick}>Click +</button>
+        </div>
+    );
+}
+export default ComponentUseEffectProduct
+
+
+
+
+
+
+/*const ItemCount = () =>{
     const inicial = 1;
     const stock = 30;
     
@@ -15,13 +36,10 @@ const ItemCount = () =>{
         setValue(value-1)
         /*if{
             value= 0
-        }*/
+        }
 
     }
-
-
-
-
+ 
     return(
         <div>
             <h3>Cuantos desea?</h3>
@@ -37,4 +55,4 @@ const ItemCount = () =>{
 
 
 
-export default ItemCount
+export default ItemCount*/

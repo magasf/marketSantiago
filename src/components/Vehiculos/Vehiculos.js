@@ -6,7 +6,8 @@ function BotonDesafio() {
     return(
         <div>
             <h3>Boton desafio</h3>
-            
+            <img></img>
+            <img></img>
         </div>
     )
 

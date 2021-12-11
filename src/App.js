@@ -1,5 +1,6 @@
 
 import { NavBar } from './components/NavBar/NavBar';
+import ComponentUseEffectProduct from './components/Vehiculos/ItemListContainer';
 import ItemCount,{useState} from './components/Vehiculos/ItemListContainer'
 
 
@@ -24,6 +25,7 @@ function App() {
       </div>
      
         <ItemCount/>
+        <ComponentUseEffectProduct/>
       
           
 
